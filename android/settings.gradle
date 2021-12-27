@@ -1,0 +1,5 @@
+rootProject.name = 'CMBPOC'
+include ':cmbsdk-react-native'
+project(':cmbsdk-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/cmbsdk-react-native/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'

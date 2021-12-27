@@ -1,0 +1,6 @@
+module Pods_CMBPOC_CMBPOCTests {
+  umbrella header "Pods-CMBPOC-CMBPOCTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
